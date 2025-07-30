@@ -41,7 +41,7 @@ app.post('/generate-proposal', async (req, res) => {
 
           End the proposal with a short, informal closing sentence that encourages the client to reply. Do not use generic or templated lines like “Looking forward to working together” or “Let’s collaborate.” Instead, write something a freelancer might casually type in a message — human, simple, and open-ended. Avoid sign-offs like “Thank you” or “Best regards.”
 
-          Match the length of the proposal to the job description. If the job post is short and straightforward, keep the proposal very brief and focused. If it’s long and detailed, you can include more explanation — but always stay concise and direct. In general, keep the proposal under 150–200 words unless a more complex answer is truly needed. Clients appreciate clear, useful messages that respect their time.
+          Match the length of the proposal to the job description. If the job post is short and straightforward, keep the proposal very brief and focused. If it’s long and detailed, you can include more explanation — but always stay concise and direct. In general, keep the proposal under concise unless a more complex answer is truly needed. Clients appreciate clear, useful messages that respect their time.
 
           Write the proposal as one continuous paragraph with no formatting, no sections, and no fluff. Speak directly to the client’s situation and explain how you can help. Do not talk about your background unless it directly supports the solution. Make sure every sentence moves the proposal forward and builds relevance. The final message should feel like it was written by a skilled human expert who understands the work and wants to help — honest, specific, and focused on getting a reply.`,
         },

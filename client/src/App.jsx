@@ -1,11 +1,24 @@
-import ProposalForm from './ProposalForm';
+import ProposalForm from './components/ProposalForm';
+import AuthScreen from './components/AuthScreen';
+import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 
 function App() {
   return (
-    <main className="min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl font-bold text-center mb-6">BidNest – AI Proposal Generator</h1>
-      <ProposalForm />
-    </main>
+    <>
+      <SignedOut>
+        <AuthScreen />
+      </SignedOut>
+
+      <SignedIn>
+        <div className="min-h-screen bg-gray-100 p-4">
+          <div className="flex justify-between items-center mb-6">
+            <h1 className="text-3xl font-bold">BidNest – AI Proposal Generator</h1>
+            <UserButton afterSignOutUrl="/" />
+          </div>
+          <ProposalForm />
+        </div>
+      </SignedIn>
+    </>
   );
 }
 
